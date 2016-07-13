@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.boxfish.rpt.mapper.RptAppBasicMapper">
+
+    <select id="selectRptAppBasic" parameterType="com.boxfish.rpt.model.RptAppBasic" resultType="com.boxfish.rpt.model.RptAppBasic">
+        SELECT
+            a.id,
+            a.day_key dayKey,
+            a.dimension_desc1 dimensionDesc1,
+            a.dimension_desc2 dimensionDesc2,
+            a.dimension_desc3 dimensionDesc3,
+            a.dimension_value dimensionValue,
+            a.data_desc dataDesc,
+            a.data_value dataValue,
+            a.job_id jobId
+        FROM
+            rpt_app_basic a
+        <where>
+            <if test="dayKeyStart != null and dayKeyStart != '' ">
+                and DATE_FORMAT(a.day_key, '%Y-%m-%d') <![CDATA[>=]]> #{dayKeyStart}
+            </if>
+            <if test="dayKeyEnd != null and dayKeyEnd != '' ">
+                and DATE_FORMAT(a.day_key, '%Y-%m-%d') <![CDATA[<=]]> #{dayKeyEnd}
+            </if>
+            <if test="dimensionDesc1 != null and dimensionDesc1 != '' ">
+                and dimension_desc1 = #{dimensionDesc1}
+            </if>
+            <if test="dimensionDesc2 != null and dimensionDesc2 != '' ">
+                and dimension_desc2 = #{dimensionDesc2}
+            </if>
+            <if test="dimensionDesc3 != null and dimensionDesc3 != '' ">
+                and dimension_desc3 = #{dimensionDesc3}
+            </if>
+            <if test="dimensionValue != null and dimensionValue != '' ">
+                and dimension_value = #{dimensionValue}
+            </if>
+            <if test="dataDesc != null and dataDesc != '' ">
+                and data_desc = #{dataDesc}
+            </if>
+            <if test="jobId != null and jobId != '' ">
+                and job_id = #{jobId}
+            </if>
+
+        </where>
+    </select>
+
+</mapper>

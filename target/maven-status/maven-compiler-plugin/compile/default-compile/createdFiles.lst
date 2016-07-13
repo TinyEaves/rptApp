@@ -1,0 +1,14 @@
+com/boxfish/rpt/util/MyMapper.class
+com/boxfish/rpt/conf/MyBatisMapperScannerConfig.class
+com/boxfish/rpt/mapper/RptAppBasicMapper.class
+com/boxfish/rpt/model/Person.class
+com/boxfish/rpt/conf/WebMvcConfig.class
+com/boxfish/rpt/model/Test$2.class
+com/boxfish/rpt/conf/MyBatisConfig.class
+com/boxfish/rpt/model/BaseEntity.class
+com/boxfish/rpt/model/RptAppBasic.class
+com/boxfish/rpt/model/Test.class
+com/boxfish/rpt/service/RptAppBasicService.class
+com/boxfish/rpt/RptAppApplication.class
+com/boxfish/rpt/controller/RptAppBasictController.class
+com/boxfish/rpt/model/Test$1.class

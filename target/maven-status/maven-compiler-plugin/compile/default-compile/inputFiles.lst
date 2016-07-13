@@ -1,0 +1,12 @@
+/Users/tiny/project/rptApp/src/main/java/com/boxfish/rpt/conf/WebMvcConfig.java
+/Users/tiny/project/rptApp/src/main/java/com/boxfish/rpt/controller/RptAppBasictController.java
+/Users/tiny/project/rptApp/src/main/java/com/boxfish/rpt/mapper/RptAppBasicMapper.java
+/Users/tiny/project/rptApp/src/main/java/com/boxfish/rpt/model/Test.java
+/Users/tiny/project/rptApp/src/main/java/com/boxfish/rpt/util/MyMapper.java
+/Users/tiny/project/rptApp/src/main/java/com/boxfish/rpt/service/RptAppBasicService.java
+/Users/tiny/project/rptApp/src/main/java/com/boxfish/rpt/model/BaseEntity.java
+/Users/tiny/project/rptApp/src/main/java/com/boxfish/rpt/RptAppApplication.java
+/Users/tiny/project/rptApp/src/main/java/com/boxfish/rpt/conf/MyBatisMapperScannerConfig.java
+/Users/tiny/project/rptApp/src/main/java/com/boxfish/rpt/conf/MyBatisConfig.java
+/Users/tiny/project/rptApp/src/main/java/com/boxfish/rpt/model/RptAppBasic.java
+/Users/tiny/project/rptApp/src/main/java/com/boxfish/rpt/model/Person.java

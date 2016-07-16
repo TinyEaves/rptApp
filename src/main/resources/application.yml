@@ -50,6 +50,6 @@ spring:
   profiles: production
 
   datasource:
-    url: jdbc:mysql://boxfishdb2013.mysql.rds.aliyuncs.com/bebase?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://192.168.0.100:3306/bebase?useUnicode=true&characterEncoding=utf8
     username: bebase
     password: boxfish
